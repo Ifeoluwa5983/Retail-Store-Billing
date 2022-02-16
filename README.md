@@ -14,3 +14,22 @@ How to Install and Run the Project
 # Run the application and make it is running on the set port 8081
 # Test the api
 # The api documentation was done with swagger - localhost:8081/swagger-ui/
+
+SAMPLE REQUEST
+
+{
+  "customerId": 1,
+  "description": "string",
+  "items": [
+    {
+      "id": 0,
+      "productId": 1,
+      "quantity": 20
+    },
+  {
+      "id": 0,
+      "productId": 2,
+      "quantity": 2
+    }
+  ]
+}
